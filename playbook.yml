@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  vars:
+    timezone: Asia/Tokyo
+    friend_name: Heisenberg
+  tasks:
+    - import_role:
+        name: workshop.demo_collection.custom_role
