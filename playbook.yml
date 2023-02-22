@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: *-automationhub
   connection: local
   gather_facts: false
   become: true
