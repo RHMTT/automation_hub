@@ -1,5 +1,5 @@
 ---
-- hosts: all:!control_nodes
+- hosts: student*-automationhub
   gather_facts: false
   become: true
   vars:
