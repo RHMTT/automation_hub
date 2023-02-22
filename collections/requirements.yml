@@ -1,4 +1,3 @@
 ---
 collections:
-- ansible.posix
 - workshop.demo_collection
