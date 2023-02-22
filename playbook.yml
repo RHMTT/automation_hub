@@ -1,6 +1,5 @@
 ---
 - hosts: all:!control_nodes
-  connection: local
   gather_facts: false
   become: true
   vars:
